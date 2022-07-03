@@ -8,9 +8,15 @@ body {
     background-color: #f9fbfd;
 }
 .wrapper {
-    width: 783px;
+    width: 60%;
     background-color: #f9fbfd;
     margin: 30px auto 0;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+header{
+    width: 100%;
 }
 h1 {
     text-align: center;
@@ -23,10 +29,19 @@ h2 {
     padding-top: 25px;
     color: #3b4955;
 }
+@media screen and (max-width:768px) {
+    h2 {
+        font-size: 28px;
+        margin: 25px 0 20px 0;
+        padding-top: 25px;
+        color: #3b4955;
+        text-align: center;
+    }
+}
 hr {
     border-top: 1px solid #ddd;
     margin: 10px 42px;
-    width: 700px;
+    width: 85%;
 }
 .card{
     box-shadow: 0 0 6px #ddd;
@@ -39,7 +54,7 @@ hr {
 }
 .card-body textarea {
     border: 1px dashed lightgray;
-    width: 700px;
+    width: 85%;
     height: 140px;
     border-radius: 10px;
     font-size: 19px;
@@ -48,7 +63,7 @@ hr {
     color: #3b4955;
 }
 .card-footer {
-    width: 800px;
+    width: 100%;
     text-align: center;
 }
 .card-footer #generateBtn,.card-footer #copyToClipboardBtn {
