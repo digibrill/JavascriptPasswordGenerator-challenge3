@@ -35,10 +35,10 @@ let generatePassword = function(){
 
     // check password character criteria
     let passwordOptionsChoice = false;
-    let passwordLowerCase = confirm("Do you want lowercase letters?");
-    let passwordUpperCase = confirm("Do you want uppercase letters?");
-    let passwordNumeric = confirm("Do you want numbers?");
-    let passwordSpecChars = confirm("Do you want special characters?");
+    let passwordLowerCase = confirm("Do you want lowercase letters? Press 'OK' for yes and 'cancel' for no.");
+    let passwordUpperCase = confirm("Do you want uppercase letters? Press 'OK' for yes and 'cancel' for no.");
+    let passwordNumeric = confirm("Do you want numbers? Press 'OK' for yes and 'cancel' for no.");
+    let passwordSpecChars = confirm("Do you want special characters? Press 'OK' for yes and 'cancel' for no.");
     while ( passwordOptionsChoice === false ) {
         passwordOptionsChoice = true;
         if (!passwordLowerCase && !passwordUpperCase && !passwordNumeric && !passwordSpecChars) {
