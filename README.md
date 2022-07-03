@@ -88,7 +88,7 @@ This Challenge is graded based on the following criteria:
 
 * Repository contains quality readme file with description, screenshot, and link to deployed application.
 
-![portfolio demo](./jspasswordcap.png)
+![portfolio demo](./jspwgencap.png)
 
 ## My links
 
