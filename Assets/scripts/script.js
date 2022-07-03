@@ -61,7 +61,7 @@ let generatePassword = function(){
         pwOptions += "1234567890";
     }
     if (passwordSpecChars) {
-        pwOptions += "()\`~!@#$%^&*-+=|\{}[]:;\"'<>,.?/";
+        pwOptions += "!\"#$%&'()*+,-./:;<=>?@[\]^_`{|}~";
     }
 
     // generate from options and length
